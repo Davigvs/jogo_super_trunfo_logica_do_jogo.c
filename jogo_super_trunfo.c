@@ -100,6 +100,7 @@ printf("Carta 2:\n" "Estado: %c\n" "Código: %s\n"
   "PIB per capita: %.2f\n " "S_poder_2 %f\n", estado_2, cd_carta_2, 
   nome_CD_2, populacao_2, area_2, pib_2, NP_turistico_2, Densi_populacional_2, PIB_per_capi_2);
 
+ //esse trecho acontece a comparação com a variavel de cada carta
 printf("\n");
 printf("Comparação de cartas:\n");
 
@@ -112,5 +113,6 @@ if (area > area_2) {
 }
 
  return 0;
+
 
 }
